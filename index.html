@@ -69,18 +69,17 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
             color: #FF5722; /* Оранжев цвят за имейл */
         }
         img {
-            width: 130px;
-            height: 140px;
+            width: 140px;
+            height: 150px;
             border-radius: 50%;
-	    margin-top: 20px;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <img src="chip1.jpeg" alt="Профилна снимка">
-        <h1>Мария Петрова</h1>
+        <h1>Добре дошли на моята страница!</h1>
         <p>Тук можете да намерите всички мои контакти.</p>
         
         <div id="links"></div>
@@ -88,12 +87,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
     <script>
         const contacts = [
-
-            { name: "Facebook", 
-        url: "https://www.facebook.com/profile.php?id=100007744272813&rdid=ZxIgSvW0bS7PNtb5&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FZxJ2BrqBosZNgVtj%2F", 
-        target: "_blank", 
-        icon: "fab fa-facebook", 
-        class: "facebook"  },
+        
+            { name: "Facebook", url: "https://www.facebook.com/profile.php?id=100007029159208", icon: "fab fa-facebook", class: "facebook" },
             { name: "Имейл", url: "mailto:macata90@abv.bg", icon: "fas fa-envelope", class: "email" }, // Иконата за имейл
             { name: "Телефон", url: "tel:+359894690842", icon: "fas fa-phone", class: "phone" } // Добавен клас за телефон
         ];
